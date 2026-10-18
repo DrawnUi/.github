@@ -1,0 +1,17 @@
+name: Bug report
+description: Something does not work as expected
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. DrawnUI is free and open source; if it saves you time, you can [support its development](https://github.com/sponsors/taublast).
+  - type: input
+    attributes:
+      label: DrawnUI version and platform
+      placeholder: e.g. 1.10.7.7, Android 15
+  - type: textarea
+    attributes:
+      label: What happens
+      description: What you did, what you expected, what you got instead.
+    validations:
+      required: true
